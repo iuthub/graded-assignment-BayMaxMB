@@ -155,6 +155,17 @@
                 <a href=""><i class="fa fa-trash-alt"></i></a> 
             </div>
           </li>
+          <li>
+            <div class="task">
+               Test
+            </div>
+            <div class="action">
+                <a href=""><i class="fa fa-edit"></i></a>
+            </div>
+            <div class="action">
+                <a href=""><i class="fa fa-trash-alt"></i></a> 
+            </div>
+          </li>
         </ul>
     </body>
 </html>
