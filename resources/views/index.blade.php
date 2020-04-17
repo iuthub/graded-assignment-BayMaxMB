@@ -23,7 +23,6 @@
               margin: 0;
               padding: 0;
             }
-
             /* Style the list items */
             ul li {
               position: relative;
