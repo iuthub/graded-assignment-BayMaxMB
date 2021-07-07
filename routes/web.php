@@ -13,6 +13,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+Route::get('/', 'PagesController@index');
+
+
+Route::get('/?newTask={task}', function ($task) {
+
+    return 'Test '.$task;
 });

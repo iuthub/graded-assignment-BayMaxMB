@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>{{config('app.name')}}</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -23,7 +23,6 @@
               margin: 0;
               padding: 0;
             }
-
             /* Style the list items */
             ul li {
               position: relative;
@@ -147,6 +146,17 @@
           <li>
             <div class="task">
                Finish quiz
+            </div>
+            <div class="action">
+                <a href=""><i class="fa fa-edit"></i></a>
+            </div>
+            <div class="action">
+                <a href=""><i class="fa fa-trash-alt"></i></a> 
+            </div>
+          </li>
+          <li>
+            <div class="task">
+               Test
             </div>
             <div class="action">
                 <a href=""><i class="fa fa-edit"></i></a>
